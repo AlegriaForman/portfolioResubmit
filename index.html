@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Ali's About Blog</title>
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One|Josefin+Slab' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header class="clearfix">
+      <section class="head">
+        <h1>Alegria "Ali" Forman || Full Stack Developer</h1>
+        <img id="pic" src="images/23.jpg" class="expand">
+      </section>
+    </header>
+    <nav class="main-nav">
+      <ul>
+        <li class="tab"><a href="#" id="my-about">About</a></li>
+        <li class="tab"><a href="#" id="my-skills"> Skills</a></li>
+        <li class="tab"><span><a href="https://github.com/AlegriaForman" target="_blank">GitHub</a></span></li>
+        <li class="tab"><a href="#" id="gitProjects">GitHub Projects</a></li>
+        <li class="tab"><a href="#" id="my-contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="about">
+      <p>
+        I am a full-stack web developer student at Code Fellows based in Seattle.
+        I have done various projects from creating websites and games. Find out
+        how I can assist you with your business and contact me.
+      </p>
+      <p>
+        I like to travel, go for hikes, fond of sports, adore realist and
+        impressionist paintings and enjoy reading classic books. Previously hiked
+        Hurricane Ridge. I am an avid fan of Oscar Wilde.
+      </p>
+    </section>
+    <section id="skills">
+      <p>
+        <ul id="language" style="list-style-type:none">
+          <li>&#10003 HTML5</li>
+          <li>&#10003 CSS/Sass</li>
+          <li>&#10003 Javascript/JQuery/JSON/Ajax</li>
+          <li>&#10003 SQL</li>
+        </ul>
+      </p>
+    </section>
+    <section id="contact">
+      <ul>
+        <li>Email:aforman@gmail.com</li>
+        <li>Phone:(206) 123-4567</li>
+        <li><a href="https://twitter.com/catpanion" target="_blank">
+          <img src="images/twitter_followers.png"> AliForman@catpanion</img></a></li>
+      </ul>
+    </section>
+    <section id="projects-section">
+      <article class="template" data-projects="projects">
+        <h3></h3>
+        <p class="project-content"></p>
+      </article>
+    </section>
+    <footer>
+     <p>&copy;ali</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script src="scripts/gitHubProjects.js"></script>
+    <script src="scripts/portfolio.js"></script>
+  </body>
+</html>
